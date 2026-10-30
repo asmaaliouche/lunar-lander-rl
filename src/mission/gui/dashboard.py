@@ -25,10 +25,6 @@ with col2:
     reward_text = st.empty()
     action_text = st.empty()
     status_text = st.empty()
-    
-    st.markdown("---")
-    st.markdown("**Action Legend:**")
-    st.markdown("- 0: Do nothing\n- 1: Fire left engine\n- 2: Fire main engine\n- 3: Fire right engine")
 
 if start_btn:
     try:
